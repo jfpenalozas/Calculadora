@@ -1,0 +1,114 @@
+#calculator {
+  width: 320px;
+  height: 420px;
+  margin: 0 auto;
+  margin-top: 50px;
+  -moz-box-shadow: 0 0 8px background-colo;
+  -webkit-box-shadow: 0 0 8px background-color;
+  box-shadow: 0 0 10px blue;
+  background-color: black;
+}
+
+#txtScreen {
+  float: left;
+  width: 315px;
+  height: 100px;
+  font-size: xx-large;
+  text-align: right;
+  border: none;
+  border-top: 10px solid black;
+  text-shadow: 1px 2px black;
+}
+
+.numericPad {
+  position: relative;
+  float: left;
+  background-color: red;
+}
+
+.btnNum {
+  width: 77px;
+  height: 77px;
+  color: black;
+  background-color:brown;
+  border: none;
+  font-size: large;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btnNum:hover {
+  background-color: white;
+}
+
+.funtionPad {
+  position: relative;
+  float: left;
+  background-color: black;
+}
+
+.btnFuntionPad {
+  width: 60.4px;
+  height: 60.4px;
+  color: goldenrod
+  background-color: black;
+  border: none;
+  font-size: large;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btnFuntionPad:hover {
+  background-color: red;
+}
+
+.extraFuntionPad {
+  width: 0px;
+  height: 0px;
+  background-color: blue ;
+  position: relative;
+}
+
+.rowsExtraFuntionPad {
+  height: 0px;
+  background-color: blue;
+  position: relative;
+  display: inline-flex;
+  right: 170px;
+  opacity: 0;
+  visibility: hidden;
+  -moz-transition: opacity 0.5s, visibility 0.5s;
+  -webkit-transition: opacity 0.5s, visibility 0.5s;
+  -o-transition: opacity 0.5s, visibility 0.5s;
+  transition: opacity 0.5s, visibility 0.5s;
+  transition-timing-function: ease-in;
+}
+
+.extraFuntionPad:hover > .rowsExtraFuntionPad {
+  visibility: visible;
+  opacity: 100;
+}
+
+.btnExtraFuntionPad {
+  width: 61px;
+  height: 61.5px;
+  color: white;
+  background-color: beige;
+  border: none;
+  font-size: large;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btnExtraFuntionPad:hover {
+  background-color: w;
+}
+
+footer {
+  text-align: center;
+  margin-top: 50px;
+}
+
+footer span {
+  color: green;
+}
